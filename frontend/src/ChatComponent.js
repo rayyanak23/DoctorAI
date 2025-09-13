@@ -1,6 +1,4 @@
-// ChatComponent.js
-
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import axios from 'axios';
 import io from 'socket.io-client';
 import './ChatComponent.css';
@@ -9,8 +7,7 @@ const BACKEND_URL = 'http://localhost:3001';
 const socket = io(BACKEND_URL);
 
 const ChatComponent = () => {
-    // MODIFIED: Added state for name and email, and a new step 'collect_details'
-    const [step, setStep] = useState('loading'); // loading, collect_details, symptom_selection, follow_up, submitted
+    const [step, setStep] = useState('loading');
     const [messages, setMessages] = useState([]);
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -24,32 +21,40 @@ const ChatComponent = () => {
         chatEndRef.current?.scrollIntoView({ behavior: 'smooth' });
     }, [messages]);
 
-    useEffect(() => {
-        const startChat = async () => {
-            try {
-                const sessionRes = await axios.post(`${BACKEND_URL}/start-session`, {});
-                addBotMessage(sessionRes.data.greeting);
-
-                const symptomsRes = await axios.get(`${BACKEND_URL}/symptoms`);
-                setSymptomList(symptomsRes.data);
-                
-                // MODIFIED: Change to the new details collection step
-                setStep('collect_details');
-
-            } catch (error) {
-                addBotMessage("Sorry, I'm having trouble connecting. Please try again later.");
-                console.error("Initialization failed:", error);
-            }
-        };
-
-        startChat();
-    }, []);
-
     const addBotMessage = (text) => {
         setMessages(prev => [...prev, { from: 'bot', text }]);
     };
     
-    // NEW: Function to handle submission of name and email
+    const startChat = useCallback(async () => {
+        try {
+            const sessionRes = await axios.post(`${BACKEND_URL}/start-session`, {});
+            addBotMessage(sessionRes.data.greeting);
+
+            const symptomsRes = await axios.get(`${BACKEND_URL}/symptoms`);
+            setSymptomList(symptomsRes.data);
+            
+            setStep('collect_details');
+        } catch (error) {
+            addBotMessage("Sorry, I'm having trouble connecting. Please try again later.");
+            console.error("Initialization failed:", error);
+        }
+    }, []);
+
+    useEffect(() => {
+        startChat();
+    }, [startChat]);
+
+    const handleReset = () => {
+        setStep('loading');
+        setMessages([]);
+        setName('');
+        setEmail('');
+        setSelectedSymptoms([]);
+        setFollowUpForm(null);
+        setResponses({});
+        startChat();
+    };
+
     const handleDetailsSubmit = (e) => {
         e.preventDefault();
         if (!name || !email) {
@@ -104,7 +109,6 @@ const ChatComponent = () => {
         setStep('loading');
         addBotMessage("Thank you. Submitting your responses now...");
         try {
-            // MODIFIED: Send name and email along with other data
             await axios.post(`${BACKEND_URL}/submit-form`, {
                 name,
                 email,
@@ -133,7 +137,6 @@ const ChatComponent = () => {
             <div className="chat-input-area">
                 {step === 'loading' && <div className="loading-spinner"></div>}
 
-                {/* NEW: Form for collecting name and email */}
                 {step === 'collect_details' && (
                     <form className="form-container" onSubmit={handleDetailsSubmit}>
                          <div className="input-group">
@@ -203,7 +206,12 @@ const ChatComponent = () => {
                 )}
 
                  {step === 'submitted' && (
-                    <p className="final-message">This session has ended.</p>
+                    <div className="form-container">
+                        <p className="final-message">This session has ended. Thank you.</p>
+                        <button className="submit-button" onClick={handleReset}>
+                            Start New Session
+                        </button>
+                    </div>
                 )}
             </div>
         </div>
