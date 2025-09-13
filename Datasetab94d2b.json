@@ -1,0 +1,1454 @@
+[
+    {
+        "symptom": "Chest Pain / Discomfort",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did the pain start and what were you doing at that time?",
+                "Can you describe the pain (pressure, squeezing, sharp, burning)?",
+                "Does it radiate to your arm, jaw, or back?",
+                "Is the pain constant or intermittent? How long does it last?",
+                "Does rest or nitroglycerin relieve it?"
+            ],
+            "vital_signs": [
+                "What is your current blood pressure and heart rate?",
+                "Do you experience fluctuations in your heart rate or blood pressure during the pain?"
+            ],
+            "medical_history": [
+                "Do you have a history of angina, heart attack, or coronary artery disease?",
+                "Have you undergone any heart surgeries or interventions (e.g., stent placement)?"
+            ],
+            "past_medical_history": [
+                "Do you have hypertension, diabetes, or high cholesterol?",
+                "Any history of pericarditis or myocarditis?"
+            ],
+            "lifestyle_risk_factors": [
+                "Do you smoke or use tobacco products? How much per day?",
+                "What is your alcohol consumption like?",
+                "Do you exercise regularly?"
+            ],
+            "red_flags": [
+                "Is the chest pain sudden and severe, described as a 'tearing' sensation?",
+                "Is it associated with profuse sweating, nausea, or sudden shortness of breath?"
+            ],
+            "psychosocial": [
+                "Have you been under extreme stress or anxiety recently?",
+                "Do you have a history of panic attacks?"
+            ]
+        }
+    },
+    {
+        "symptom": "Shortness of Breath (Dyspnea)",
+        "follow_up_questions": {
+            "symptom_details": [
+                "Is the breathlessness at rest or with exertion?",
+                "Do you have difficulty breathing when lying flat (orthopnea)?",
+                "Do you wake up suddenly at night gasping for air (paroxysmal nocturnal dyspnea)?",
+                "Is it getting progressively worse?"
+            ],
+            "vital_signs": [
+                "What is your resting oxygen saturation (SpO2)?",
+                "Have you noticed rapid or shallow breathing?"
+            ],
+            "medical_history": [
+                "Do you have a history of heart failure, asthma, or COPD?",
+                "Have you had prior pulmonary embolism or lung diseases?"
+            ],
+            "past_medical_history": [
+                "Do you have prior MI, valve disease, or arrhythmias?"
+            ],
+            "lifestyle_risk_factors": [
+                "Do you smoke or have occupational exposure to lung irritants?",
+                "Physical activity level and diet?"
+            ],
+            "red_flags": [
+                "Is the shortness of breath sudden in onset and severe?",
+                "Any chest pain, leg swelling, or sudden dizziness?"
+            ],
+            "psychosocial": [
+                "Do you experience panic attacks or anxiety contributing to breathlessness?"
+            ]
+        }
+    },
+    {
+        "symptom": "Palpitations",
+        "follow_up_questions": {
+            "symptom_details": [
+                "How long do the palpitations last (seconds, minutes, hours)?",
+                "Is the rhythm regular or irregular?",
+                "Are palpitations associated with activity, stress, or at rest?",
+                "Do you feel lightheaded, chest pain, or shortness of breath during episodes?"
+            ],
+            "vital_signs": [
+                "What is your current heart rate?",
+                "Any prior episodes of bradycardia or tachycardia documented?"
+            ],
+            "medical_history": [
+                "Do you have thyroid disorders or known arrhythmias?",
+                "Have you had prior cardiac ablations?"
+            ],
+            "past_medical_history": [
+                "Do you have electrolyte imbalances or adrenal disorders?"
+            ],
+            "lifestyle_risk_factors": [
+                "High caffeine or energy drink intake?",
+                "Tobacco or alcohol consumption?"
+            ],
+            "red_flags": [
+                "Have you lost consciousness during an episode?",
+                "Is there associated chest pain, severe dizziness, or shortness of breath?"
+            ],
+            "psychosocial": [
+                "Have you been stressed, anxious, or depressed recently?"
+            ]
+        }
+    },
+    {
+        "symptom": "Syncope (Fainting)",
+        "follow_up_questions": {
+            "symptom_details": [
+                "What were you doing when you fainted (standing, sitting, exercising)?",
+                "Was there any warning (dizziness, nausea, sweating)?",
+                "How many episodes have occurred?",
+                "Did anyone witness convulsive movements?"
+            ],
+            "vital_signs": [
+                "What was your blood pressure and heart rate before/after the episode?"
+            ],
+            "medical_history": [
+                "History of heart disease, arrhythmias, or conduction disorders?",
+                "Previous pacemaker or syncope evaluations?"
+            ],
+            "past_medical_history": [
+                "History of orthostatic hypotension or adrenal insufficiency?"
+            ],
+            "lifestyle_risk_factors": [
+                "Dehydration, poor nutrition, or prolonged standing?"
+            ],
+            "red_flags": [
+                "Sudden, without warning, no identifiable triggers?",
+                "Associated chest pain or palpitations?"
+            ],
+            "psychosocial": [
+                "Recent panic attacks or anxiety episodes?"
+            ]
+        }
+    },
+    {
+        "symptom": "Peripheral Edema (Leg/Foot Swelling)",
+        "follow_up_questions": {
+            "symptom_details": [
+                "Is the swelling bilateral or unilateral?",
+                "When did it start and has it worsened?",
+                "Is it worse at the end of the day or after standing?",
+                "Any associated pain or redness?"
+            ],
+            "vital_signs": [
+                "Blood pressure and heart rate readings?",
+                "Recent weight gain?"
+            ],
+            "medical_history": [
+                "History of heart failure, kidney disease, liver disease, or DVT?"
+            ],
+            "past_medical_history": [
+                "Known chronic venous insufficiency or lymphedema?"
+            ],
+            "lifestyle_risk_factors": [
+                "Prolonged standing/sitting or immobility?",
+                "High salt intake or low protein diet?"
+            ],
+            "red_flags": [
+                "Sudden painful swelling, redness, or warmth (possible DVT)?",
+                "Shortness of breath or chest pain (possible PE)?"
+            ],
+            "psychosocial": [
+                "Stress, depression, or decreased physical activity recently?"
+            ]
+        }
+    },
+    {
+        "symptom": "Cough",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did the cough start?",
+                "Is it dry or productive (with phlegm)?",
+                "Is the cough worse at night or during the day?",
+                "Is it triggered by exertion or certain environments?"
+            ],
+            "vital_signs": [
+                "Do you have a fever?",
+                "What is your oxygen saturation (SpO2)?"
+            ],
+            "medical_history": [
+                "History of asthma, COPD, heart failure, or recent respiratory infection?",
+                "Any history of tuberculosis or interstitial lung disease?"
+            ],
+            "past_medical_history": [
+                "Prior exposure to lung irritants or chronic lung conditions?"
+            ],
+            "lifestyle_risk_factors": [
+                "Do you smoke or live in areas with poor air quality?",
+                "Do you use cough suppressants or other medications?"
+            ],
+            "red_flags": [
+                "Is there blood in the sputum (hemoptysis)?",
+                "Any unexplained weight loss or night sweats?"
+            ],
+            "psychosocial": [
+                "Recent anxiety or emotional distress leading to cough?"
+            ]
+        }
+    },
+    {
+        "symptom": "Nocturia (Frequent Nighttime Urination)",
+        "follow_up_questions": {
+            "symptom_details": [
+                "How many times do you urinate per night?",
+                "Is the urine volume large or small?",
+                "Do you wake up due to a strong urge or inability to hold urine?",
+                "Has this recently worsened?"
+            ],
+            "vital_signs": [
+                "Recent blood pressure and blood sugar readings?"
+            ],
+            "medical_history": [
+                "History of diabetes, heart failure, prostate issues, or urinary tract infections?"
+            ],
+            "past_medical_history": [
+                "History of kidney disease or bladder dysfunction?"
+            ],
+            "lifestyle_risk_factors": [
+                "Fluid intake before bedtime (caffeine, alcohol)?"
+            ],
+            "red_flags": [
+                "Presence of blood in urine or painful urination?",
+                "Rapid worsening of symptoms?"
+            ],
+            "psychosocial": [
+                "Sleep disturbances due to anxiety or stress?"
+            ]
+        }
+    },
+    {
+        "symptom": "Dizziness or Lightheadedness",
+        "follow_up_questions": {
+            "symptom_details": [
+                "Is the dizziness constant or episodic?",
+                "Does it occur when standing up (orthostatic)?",
+                "Any associated visual disturbances or hearing loss?",
+                "Do you feel like you might faint?"
+            ],
+            "vital_signs": [
+                "Blood pressure and heart rate lying down and standing (orthostatic measurements)?"
+            ],
+            "medical_history": [
+                "History of arrhythmias, hypotension, anemia, or inner ear problems?"
+            ],
+            "past_medical_history": [
+                "Previous syncopal episodes or stroke?"
+            ],
+            "lifestyle_risk_factors": [
+                "Poor hydration or low salt intake?"
+            ],
+            "red_flags": [
+                "Sudden severe dizziness with chest pain or palpitations?",
+                "Neurological deficits accompanying dizziness?"
+            ],
+            "psychosocial": [
+                "Anxiety-related dizziness or hyperventilation episodes?"
+            ]
+        }
+    },
+    {
+        "symptom": "Diaphoresis (Excessive Sweating)",
+        "follow_up_questions": {
+            "symptom_details": [
+                "Is sweating generalized or localized?",
+                "Is it associated with exertion, rest, or specific triggers?",
+                "Any associated chest pain, palpitations, or dizziness?"
+            ],
+            "vital_signs": [
+                "Body temperature and heart rate readings?"
+            ],
+            "medical_history": [
+                "History of endocrine disorders (thyroid dysfunction, pheochromocytoma)?"
+            ],
+            "past_medical_history": [
+                "Past infections or autonomic dysfunction?"
+            ],
+            "lifestyle_risk_factors": [
+                "Use of medications like beta-blockers or anticholinergics?"
+            ],
+            "red_flags": [
+                "Sudden unexplained heavy sweating without exertion?",
+                "Sweating associated with chest pain or syncope?"
+            ],
+            "psychosocial": [
+                "Anxiety, panic attacks, or depression contributing to sweating?"
+            ]
+        }
+    },
+    {
+        "symptom": "Cyanosis (Bluish Skin Discoloration)",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did you first notice cyanosis?",
+                "Is it localized or generalized?",
+                "Does it worsen with exertion or improve at rest?"
+            ],
+            "vital_signs": [
+                "Oxygen saturation (SpO2)?",
+                "Heart rate and respiratory rate?"
+            ],
+            "medical_history": [
+                "History of congenital heart disease, chronic lung disease, or peripheral vascular disease?"
+            ],
+            "past_medical_history": [
+                "Prior episodes of low oxygenation or cyanosis?"
+            ],
+            "lifestyle_risk_factors": [
+                "Exposure to cold environments or smoking habits?"
+            ],
+            "red_flags": [
+                "Sudden onset of cyanosis with breathlessness or chest pain?",
+                "Limb or nail cyanosis vs. central cyanosis?"
+            ],
+            "psychosocial": [
+                "Any psychological stress causing perception of cyanosis?"
+            ]
+        }
+    },
+    {
+        "symptom": "Rapid Breathing (Tachypnea)",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did the rapid breathing start?",
+                "Is it at rest or during exertion?",
+                "Do you feel short of breath?",
+                "Any associated chest pain, dizziness, or palpitations?"
+            ],
+            "vital_signs": [
+                "Current respiratory rate, SpO2, and blood pressure?"
+            ],
+            "medical_history": [
+                "History of lung diseases, heart failure, or metabolic acidosis?"
+            ],
+            "past_medical_history": [
+                "Previous episodes of tachypnea, pulmonary embolism, or sepsis?"
+            ],
+            "lifestyle_risk_factors": [
+                "Smoking or substance use (e.g., stimulants)?"
+            ],
+            "red_flags": [
+                "Sudden tachypnea with chest pain or hypoxia?",
+                "Neurological deficits accompanying tachypnea?"
+            ],
+            "psychosocial": [
+                "Anxiety or panic attack history?"
+            ]
+        }
+    },
+    {
+        "symptom": "Bradycardia (Slow Heart Rate)",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did you first notice a slow heart rate?",
+                "Do you experience dizziness, syncope, or fatigue?",
+                "Is there a temporal relationship with medication intake?"
+            ],
+            "vital_signs": [
+                "Current heart rate and blood pressure?",
+                "Any documented episodes of bradycardia or pauses on ECG?"
+            ],
+            "medical_history": [
+                "History of heart block, sinus node dysfunction, or hypothyroidism?"
+            ],
+            "past_medical_history": [
+                "Prior pacemaker implantation or conduction abnormalities?"
+            ],
+            "lifestyle_risk_factors": [
+                "Excessive endurance training or use of heart rate-lowering agents?"
+            ],
+            "red_flags": [
+                "Sudden bradycardia with syncope or severe hypotension?",
+                "Progressive worsening of bradycardia?"
+            ],
+            "psychosocial": [
+                "Any increased stress or depression?"
+            ]
+        }
+    },
+    {
+        "symptom": "Hypertension Symptoms",
+        "follow_up_questions": {
+            "symptom_details": [
+                "Do you experience headaches, visual disturbances, or nosebleeds?",
+                "Is the hypertension newly diagnosed or long-standing?",
+                "Any recent changes in symptoms or medications?"
+            ],
+            "vital_signs": [
+                "Recent blood pressure readings at rest and during activity?",
+                "Any heart rate abnormalities?"
+            ],
+            "medical_history": [
+                "History of chronic hypertension, kidney disease, or cardiovascular events?"
+            ],
+            "past_medical_history": [
+                "Prior hypertensive crises or secondary hypertension diagnosis?"
+            ],
+            "lifestyle_risk_factors": [
+                "High salt diet, sedentary lifestyle, obesity?"
+            ],
+            "red_flags": [
+                "Sudden very high blood pressure with chest pain, vision loss, or neurological deficits?"
+            ],
+            "psychosocial": [
+                "Stress contributing to uncontrolled blood pressure?"
+            ]
+        }
+    },
+    {
+        "symptom": "Hypotension Symptoms",
+        "follow_up_questions": {
+            "symptom_details": [
+                "Do you experience dizziness, lightheadedness, or fainting?",
+                "Is it orthostatic (worse when standing)?",
+                "Any recent weight loss or dehydration?"
+            ],
+            "vital_signs": [
+                "Current blood pressure and heart rate?",
+                "Orthostatic vital signs measurements?"
+            ],
+            "medical_history": [
+                "History of adrenal insufficiency, heart failure, or arrhythmias?"
+            ],
+            "past_medical_history": [
+                "Prior episodes of orthostatic hypotension or syncope?"
+            ],
+            "lifestyle_risk_factors": [
+                "Poor fluid intake, excessive alcohol use, or prolonged standing?"
+            ],
+            "red_flags": [
+                "Sudden hypotension with confusion or pallor?"
+            ],
+            "psychosocial": [
+                "Psychogenic causes of hypotension?"
+            ]
+        }
+    },
+    {
+        "symptom": "Heart Murmurs",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When was the murmur first detected?",
+                "Do you experience chest pain, dyspnea, or fatigue?",
+                "Any palpitations or syncope?"
+            ],
+            "vital_signs": [
+                "Blood pressure, heart rate, and oxygen saturation?"
+            ],
+            "medical_history": [
+                "History of rheumatic fever, congenital heart disease, or endocarditis?"
+            ],
+            "past_medical_history": [
+                "Prior echocardiograms or heart valve surgery?"
+            ],
+            "lifestyle_risk_factors": [
+                "Any history of drug use that affects the heart (e.g., stimulants)?"
+            ],
+            "red_flags": [
+                "Sudden onset of loud murmur with heart failure symptoms or syncope?"
+            ],
+            "psychosocial": [
+                "Anxiety related to awareness of murmur?"
+            ]
+        }
+    },
+    {
+        "symptom": "Chest Heaviness",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did the heaviness start?",
+                "Is it associated with exertion, stress, or at rest?",
+                "Does the heaviness radiate to other parts (arm, jaw, back)?"
+            ],
+            "vital_signs": [
+                "What is your blood pressure and heart rate during the episode?",
+                "Oxygen saturation (SpO2)?"
+            ],
+            "medical_history": [
+                "History of angina, heart attack, or GERD?"
+            ],
+            "past_medical_history": [
+                "Previous cardiac or gastrointestinal diagnoses?"
+            ],
+            "lifestyle_risk_factors": [
+                "Smoking, high-fat diet, sedentary lifestyle?"
+            ],
+            "red_flags": [
+                "Sudden onset of severe heaviness with shortness of breath?"
+            ],
+            "psychosocial": [
+                "Recent anxiety or panic episodes?"
+            ]
+        }
+    },
+    {
+        "symptom": "Nausea / Vomiting",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did nausea start and is it continuous or intermittent?",
+                "Any association with meals or certain activities?",
+                "Is there vomiting of blood or bile?"
+            ],
+            "vital_signs": [
+                "Current blood pressure, heart rate, and body temperature?"
+            ],
+            "medical_history": [
+                "History of heart attack, gastritis, or medication side effects?"
+            ],
+            "past_medical_history": [
+                "Previous gastrointestinal disorders or surgeries?"
+            ],
+            "lifestyle_risk_factors": [
+                "Recent alcohol intake or use of nausea-inducing drugs?"
+            ],
+            "red_flags": [
+                "Severe vomiting with dehydration or altered mental status?"
+            ],
+            "psychosocial": [
+                "Anxiety or psychological factors contributing to nausea?"
+            ]
+        }
+    },
+    {
+        "symptom": "Ankle Swelling",
+        "follow_up_questions": {
+            "symptom_details": [
+                "Is the swelling unilateral or bilateral?",
+                "When did it start and does it worsen over time?",
+                "Is there associated pain, redness, or warmth?"
+            ],
+            "vital_signs": [
+                "Blood pressure and heart rate?",
+                "Weight changes over time?"
+            ],
+            "medical_history": [
+                "History of heart failure, kidney disease, liver disease, or DVT?"
+            ],
+            "past_medical_history": [
+                "Prior chronic venous insufficiency or lymphedema?"
+            ],
+            "lifestyle_risk_factors": [
+                "Prolonged standing, high salt intake, immobility?"
+            ],
+            "red_flags": [
+                "Sudden painful unilateral swelling with redness (DVT)?"
+            ],
+            "psychosocial": [
+                "Stress or depression leading to neglect of self-care?"
+            ]
+        }
+    },
+    {
+        "symptom": "Cold Extremities",
+        "follow_up_questions": {
+            "symptom_details": [
+                "Is it continuous or episodic?",
+                "Any associated color change (blue, pale)?",
+                "Does it worsen in cold environments or with exertion?"
+            ],
+            "vital_signs": [
+                "Peripheral pulse strength and temperature?",
+                "Blood pressure and heart rate?"
+            ],
+            "medical_history": [
+                "History of peripheral arterial disease, Raynaud's phenomenon, or heart failure?"
+            ],
+            "past_medical_history": [
+                "Any prior vascular surgeries or autonomic dysfunction?"
+            ],
+            "lifestyle_risk_factors": [
+                "Smoking, exposure to cold environments, sedentary lifestyle?"
+            ],
+            "red_flags": [
+                "Sudden severe coldness and discoloration with pain (critical ischemia)?"
+            ],
+            "psychosocial": [
+                "Anxiety or poor nutrition contributing to symptoms?"
+            ]
+        }
+    },
+    {
+        "symptom": "Pain in the Jaw, Neck, or Arm",
+        "follow_up_questions": {
+            "symptom_details": [
+                "Is the pain constant or triggered by exertion or stress?",
+                "Is the pain sharp, dull, or pressure-like?",
+                "Does the pain radiate to other regions?"
+            ],
+            "vital_signs": [
+                "Blood pressure and heart rate during episodes?",
+                "Oxygen saturation?"
+            ],
+            "medical_history": [
+                "History of coronary artery disease, angina, or musculoskeletal disorders?"
+            ],
+            "past_medical_history": [
+                "Previous surgeries or injuries in the neck or jaw region?"
+            ],
+            "lifestyle_risk_factors": [
+                "Smoking, poor posture, repetitive physical work?"
+            ],
+            "red_flags": [
+                "Sudden severe pain with diaphoresis, nausea, or dyspnea?"
+            ],
+            "psychosocial": [
+                "Stress-related tension contributing to the pain?"
+            ]
+        }
+    },
+    {
+        "symptom": "Exercise Intolerance",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did you start noticing reduced exercise capacity?",
+                "Is it gradual or sudden onset?",
+                "Do you experience fatigue, shortness of breath, or chest discomfort during exertion?"
+            ],
+            "vital_signs": [
+                "Heart rate, blood pressure, and oxygen saturation before and after exertion?"
+            ],
+            "medical_history": [
+                "History of heart failure, chronic lung disease, or anemia?"
+            ],
+            "past_medical_history": [
+                "Prior cardiac surgeries or chronic illnesses?"
+            ],
+            "lifestyle_risk_factors": [
+                "Sedentary lifestyle, smoking, obesity?"
+            ],
+            "red_flags": [
+                "Sudden inability to perform previously tolerable activities?"
+            ],
+            "psychosocial": [
+                "Loss of motivation, depression, or anxiety limiting activity?"
+            ]
+        }
+    },
+    {
+        "symptom": "Difficulty Swallowing (Dysphagia)",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did the difficulty start?",
+                "Is it for solids, liquids, or both?",
+                "Any associated pain or sensation of food getting stuck?"
+            ],
+            "vital_signs": [
+                "Recent weight changes or signs of dehydration?"
+            ],
+            "medical_history": [
+                "History of GERD, stroke, or esophageal disorders?"
+            ],
+            "past_medical_history": [
+                "Previous surgeries or radiotherapy in the head/neck region?"
+            ],
+            "lifestyle_risk_factors": [
+                "Smoking, alcohol use?"
+            ],
+            "red_flags": [
+                "Progressive worsening, significant weight loss, or hemoptysis?"
+            ],
+            "psychosocial": [
+                "Stress or psychological factors contributing to dysphagia?"
+            ]
+        }
+    },
+    {
+        "symptom": "Heart Failure Symptoms",
+        "follow_up_questions": {
+            "symptom_details": [
+                "Do you experience worsening shortness of breath, especially when lying flat (orthopnea)?",
+                "Any swelling in legs, abdomen (ascites), or sudden weight gain?",
+                "Do you experience fatigue or reduced exercise tolerance?"
+            ],
+            "vital_signs": [
+                "Heart rate, blood pressure, oxygen saturation?",
+                "Jugular venous pressure assessment?"
+            ],
+            "medical_history": [
+                "History of ischemic heart disease, cardiomyopathy, or valvular heart disease?"
+            ],
+            "past_medical_history": [
+                "Previous episodes of acute decompensated heart failure?"
+            ],
+            "lifestyle_risk_factors": [
+                "High salt intake, low physical activity, alcohol use?"
+            ],
+            "red_flags": [
+                "Rapid worsening of edema, severe breathlessness at rest?"
+            ],
+            "psychosocial": [
+                "Depression or poor adherence to therapy contributing to worsening symptoms?"
+            ]
+        }
+    },
+    {
+        "symptom": "Sudden Onset Weakness",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did the weakness begin?",
+                "Is it focal (one limb) or generalized?",
+                "Any associated numbness, vision changes, or difficulty speaking?"
+            ],
+            "vital_signs": [
+                "Blood pressure, heart rate, blood sugar levels?"
+            ],
+            "medical_history": [
+                "History of stroke, transient ischemic attacks (TIA), or seizures?"
+            ],
+            "past_medical_history": [
+                "Prior episodes of weakness or neurological deficits?"
+            ],
+            "lifestyle_risk_factors": [
+                "Poor nutrition, sedentary lifestyle, substance abuse?"
+            ],
+            "red_flags": [
+                "Sudden weakness with facial drooping, speech difficulty, or visual loss (possible stroke)?"
+            ],
+            "psychosocial": [
+                "Depression, stress, or somatic symptom disorders?"
+            ]
+        }
+    },
+    {
+        "symptom": "Restlessness / Anxiety",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did restlessness or anxiety start?",
+                "Is it constant or episodic?",
+                "Any identifiable triggers (stressful events, medications)?"
+            ],
+            "vital_signs": [
+                "Heart rate, blood pressure, respiratory rate?"
+            ],
+            "medical_history": [
+                "History of anxiety disorder, panic attacks, or psychiatric disorders?"
+            ],
+            "past_medical_history": [
+                "Prior psychological or medical evaluation for anxiety symptoms?"
+            ],
+            "lifestyle_risk_factors": [
+                "Caffeine or stimulant use, irregular sleep patterns?"
+            ],
+            "red_flags": [
+                "Severe restlessness with palpitations, hyperventilation, or chest pain?"
+            ],
+            "psychosocial": [
+                "Major life stressors or trauma history?"
+            ]
+        }
+    },
+    {
+        "symptom": "Cold Sweats",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did the cold sweats start?",
+                "Is it associated with chest pain, dizziness, or nausea?",
+                "Does it occur at rest or during exertion?"
+            ],
+            "vital_signs": [
+                "Body temperature, heart rate, blood pressure?"
+            ],
+            "medical_history": [
+                "History of myocardial infarction, hypoglycemia, or infections?"
+            ],
+            "past_medical_history": [
+                "Previous episodes of diaphoresis without clear cause?"
+            ],
+            "lifestyle_risk_factors": [
+                "Substance use (stimulants, alcohol)?"
+            ],
+            "red_flags": [
+                "Sudden cold sweats with chest pain or severe hypotension?"
+            ],
+            "psychosocial": [
+                "Anxiety or panic attack history contributing to symptoms?"
+            ]
+        }
+    },
+    {
+        "symptom": "Weight Gain",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did the weight gain start?",
+                "Is it gradual or sudden?",
+                "Is it associated with swelling or shortness of breath?"
+            ],
+            "vital_signs": [
+                "Body weight, blood pressure, heart rate?"
+            ],
+            "medical_history": [
+                "History of hypothyroidism, heart failure, or kidney disease?"
+            ],
+            "past_medical_history": [
+                "Prior episodes of rapid weight gain or fluid retention?"
+            ],
+            "lifestyle_risk_factors": [
+                "Diet high in calories, low physical activity, or medication side effects?"
+            ],
+            "red_flags": [
+                "Rapid weight gain (>2 kg in a few days) with edema or breathlessness?"
+            ],
+            "psychosocial": [
+                "Stress or depression contributing to overeating or inactivity?"
+            ]
+        }
+    },
+    {
+        "symptom": "Blood in Sputum (Hemoptysis)",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did you first notice blood in your sputum?",
+                "How much blood (small streaks, large amounts)?",
+                "Any associated cough, fever, chest pain, or weight loss?"
+            ],
+            "vital_signs": [
+                "Oxygen saturation, heart rate, and respiratory rate?"
+            ],
+            "medical_history": [
+                "History of tuberculosis, bronchitis, or lung cancer?"
+            ],
+            "past_medical_history": [
+                "Previous episodes of hemoptysis or lung disease history?"
+            ],
+            "lifestyle_risk_factors": [
+                "Smoking, occupational exposures, recent travel?"
+            ],
+            "red_flags": [
+                "Large-volume hemoptysis, hypoxia, or massive bleeding?"
+            ],
+            "psychosocial": [
+                "Anxiety related to fear of serious disease?" 
+            ]
+        }
+    },
+    {
+        "symptom": "Low Urine Output (Oliguria)",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did the low urine output start?",
+                "Is it gradual or sudden?",
+                "Is it associated with swelling, fatigue, or confusion?"
+            ],
+            "vital_signs": [
+                "Blood pressure, heart rate, and hydration status?"
+            ],
+            "medical_history": [
+                "History of kidney disease, heart failure, or urinary tract obstruction?"
+            ],
+            "past_medical_history": [
+                "Prior episodes of oliguria or dialysis?"
+            ],
+            "lifestyle_risk_factors": [
+                "Poor fluid intake, excessive diuretic use?"
+            ],
+            "red_flags": [
+                "Sudden severe drop in urine output with altered mental status or hypotension?"
+            ],
+            "psychosocial": [
+                "Depression contributing to poor self-care or hydration?"
+            ]
+        }
+    },
+    {
+        "symptom": "Jaundice",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did you first notice yellowing of skin or eyes?",
+                "Is there associated abdominal pain, nausea, or dark urine?",
+                "Any recent travel or exposure to hepatitis risk factors?"
+            ],
+            "vital_signs": [
+                "Liver function tests, blood pressure, heart rate?"
+            ],
+            "medical_history": [
+                "History of liver disease, hepatitis, or gallbladder disease?"
+            ],
+            "past_medical_history": [
+                "Previous jaundice episodes or liver biopsies?"
+            ],
+            "lifestyle_risk_factors": [
+                "Alcohol use, medication hepatotoxicity, high-risk sexual behavior?"
+            ],
+            "red_flags": [
+                "Sudden jaundice with confusion, bleeding tendencies (possible liver failure)?"
+            ],
+            "psychosocial": [
+                "Stress contributing to neglect of health care?"
+            ]
+        }
+    },
+    {
+        "symptom": "Irregular Heartbeat (Arrhythmia)",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did you first notice the irregular heartbeat?",
+                "Is it constant or intermittent?",
+                "Any associated dizziness, chest pain, or shortness of breath?"
+            ],
+            "vital_signs": [
+                "Heart rate and rhythm on ECG?",
+                "Any documented bradycardia or tachycardia episodes?"
+            ],
+            "medical_history": [
+                "History of arrhythmias, structural heart disease, or electrolyte imbalances?"
+            ],
+            "past_medical_history": [
+                "Previous pacemaker, ablation, or cardiac surgeries?"
+            ],
+            "lifestyle_risk_factors": [
+                "Caffeine, alcohol use, or stimulant use?"
+            ],
+            "red_flags": [
+                "Sudden severe irregularity with chest pain, syncope, or heart failure symptoms?"
+            ],
+            "psychosocial": [
+                "Anxiety or panic attacks contributing to palpitations?"
+            ]
+        }
+    },
+    {
+        "symptom": "Hoarseness of Voice",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did the hoarseness begin?",
+                "Is it persistent or intermittent?",
+                "Any associated throat pain, difficulty swallowing, or cough?"
+            ],
+            "vital_signs": [
+                "Temperature, oxygen saturation, heart rate?"
+            ],
+            "medical_history": [
+                "History of thyroid disorders, vocal cord paralysis, or laryngeal tumors?"
+            ],
+            "past_medical_history": [
+                "Prior surgeries or radiation therapy involving the neck?"
+            ],
+            "lifestyle_risk_factors": [
+                "Smoking or alcohol use?"
+            ],
+            "red_flags": [
+                "Hoarseness lasting over 2 weeks or associated with weight loss, hemoptysis?"
+            ],
+            "psychosocial": [
+                "Stress or vocal strain contributing to hoarseness?"
+            ]
+        }
+    },
+    {
+        "symptom": "Leg Pain on Exertion (Claudication)",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did the leg pain start?",
+                "Does it occur with walking or exertion and improve with rest?",
+                "Is it localized or diffuse?"
+            ],
+            "vital_signs": [
+                "Peripheral pulses and blood pressure measurements in legs?"
+            ],
+            "medical_history": [
+                "History of peripheral arterial disease, diabetes, or smoking?"
+            ],
+            "past_medical_history": [
+                "Previous vascular interventions or surgeries?"
+            ],
+            "lifestyle_risk_factors": [
+                "Sedentary lifestyle, smoking, poor nutrition?"
+            ],
+            "red_flags": [
+                "Sudden onset of severe limb pain with pallor or numbness (critical limb ischemia)?"
+            ],
+            "psychosocial": [
+                "Anxiety about mobility limitations or fear of disability?"
+            ]
+        }
+    },
+    {
+        "symptom": "Indigestion / Heartburn",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did indigestion or heartburn start?",
+                "Is it related to meals or lying down?",
+                "Do you experience regurgitation, chest discomfort, or nausea?"
+            ],
+            "vital_signs": [
+                "Temperature and blood pressure?"
+            ],
+            "medical_history": [
+                "History of GERD, peptic ulcer disease, or esophageal disorders?"
+            ],
+            "past_medical_history": [
+                "Previous upper GI endoscopy or H. pylori treatment?"
+            ],
+            "lifestyle_risk_factors": [
+                "High-fat diet, smoking, alcohol use, or large meals before sleep?"
+            ],
+            "red_flags": [
+                "Unintended weight loss, dysphagia, or hematemesis?"
+            ],
+            "psychosocial": [
+                "Stress contributing to GI symptoms?"
+            ]
+        }
+    },
+    {
+        "symptom": "Excessive Thirst (Polydipsia)",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did the excessive thirst begin?",
+                "How much fluid do you consume daily?",
+                "Any associated frequent urination (polyuria)?"
+            ],
+            "vital_signs": [
+                "Blood pressure, blood glucose level, and heart rate?"
+            ],
+            "medical_history": [
+                "History of diabetes mellitus, diabetes insipidus, or kidney disease?"
+            ],
+            "past_medical_history": [
+                "Prior episodes of polydipsia or electrolyte imbalances?"
+            ],
+            "lifestyle_risk_factors": [
+                "High salt intake, diuretic use?"
+            ],
+            "red_flags": [
+                "Excessive thirst associated with confusion, polyuria, or sudden weight loss?"
+            ],
+            "psychosocial": [
+                "Compulsive water drinking or anxiety-driven excessive thirst?"
+            ]
+        }
+    },
+    {
+        "symptom": "Dry Mouth (Xerostomia)",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did the dry mouth begin?",
+                "Is it constant or intermittent?",
+                "Any difficulty speaking, swallowing, or taste changes?"
+            ],
+            "vital_signs": [
+                "Oral mucosa appearance, hydration status?"
+            ],
+            "medical_history": [
+                "History of Sjogren's syndrome, diabetes, or medication side effects?"
+            ],
+            "past_medical_history": [
+                "Previous episodes of dry mouth or head/neck radiotherapy?"
+            ],
+            "lifestyle_risk_factors": [
+                "Use of anticholinergic drugs, alcohol, tobacco?"
+            ],
+            "red_flags": [
+                "Dry mouth associated with severe difficulty swallowing or weight loss?"
+            ],
+            "psychosocial": [
+                "Stress or anxiety contributing to xerostomia?"
+            ]
+        }
+    },
+    {
+        "symptom": "Resting Tachycardia",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did you first notice a consistently high resting heart rate?",
+                "Do you experience palpitations, dizziness, or chest pain?",
+                "Any relationship to caffeine, medications, or stress?"
+            ],
+            "vital_signs": [
+                "Resting heart rate and blood pressure?",
+                "ECG documentation of tachycardia type?"
+            ],
+            "medical_history": [
+                "History of hyperthyroidism, anemia, or arrhythmias?"
+            ],
+            "past_medical_history": [
+                "Prior episodes of tachycardia or autonomic dysfunction?"
+            ],
+            "lifestyle_risk_factors": [
+                "High caffeine intake, stimulant use, poor sleep?"
+            ],
+            "red_flags": [
+                "Sudden tachycardia with chest pain, shortness of breath, or syncope?"
+            ],
+            "psychosocial": [
+                "Anxiety or panic attacks contributing to elevated heart rate?"
+            ]
+        }
+    },
+    {
+        "symptom": "Sudden Chest Tightness",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did the chest tightness begin?",
+                "Is it related to exertion, rest, or stress?",
+                "Does it radiate to arms, neck, or jaw?"
+            ],
+            "vital_signs": [
+                "Blood pressure, heart rate, oxygen saturation?"
+            ],
+            "medical_history": [
+                "History of angina, GERD, asthma, or musculoskeletal conditions?"
+            ],
+            "past_medical_history": [
+                "Prior episodes of chest tightness or heart disease?"
+            ],
+            "lifestyle_risk_factors": [
+                "Smoking, poor diet, sedentary lifestyle?"
+            ],
+            "red_flags": [
+                "Sudden severe tightness with sweating, nausea, and shortness of breath (possible MI)?"
+            ],
+            "psychosocial": [
+                "Stress or panic contributing to chest tightness?"
+            ]
+        }
+    },
+    {
+        "symptom": "Difficulty Breathing Lying Down (Orthopnea)",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did the orthopnea start?",
+                "How many pillows do you use to sleep comfortably?",
+                "Do you experience sudden breathlessness when lying flat?"
+            ],
+            "vital_signs": [
+                "Heart rate, blood pressure, respiratory rate, and SpO2?"
+            ],
+            "medical_history": [
+                "History of heart failure, COPD, obesity, or sleep apnea?"
+            ],
+            "past_medical_history": [
+                "Prior episodes of orthopnea or pulmonary edema?"
+            ],
+            "lifestyle_risk_factors": [
+                "Obesity, smoking, sedentary habits?"
+            ],
+            "red_flags": [
+                "Sudden worsening of orthopnea or associated pink frothy sputum?"
+            ],
+            "psychosocial": [
+                "Anxiety contributing to perception of breathlessness?"
+            ]
+        }
+    },
+    {
+        "symptom": "Swelling in Abdomen (Ascites)",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did the abdominal swelling begin?",
+                "Is it progressive or sudden?",
+                "Any associated abdominal pain, nausea, or shortness of breath?"
+            ],
+            "vital_signs": [
+                "Abdominal girth measurements, blood pressure, and heart rate?"
+            ],
+            "medical_history": [
+                "History of liver disease, heart failure, or nephrotic syndrome?"
+            ],
+            "past_medical_history": [
+                "Prior episodes of ascites or abdominal surgeries?"
+            ],
+            "lifestyle_risk_factors": [
+                "Alcohol use, viral hepatitis risk factors?"
+            ],
+            "red_flags": [
+                "Sudden severe abdominal distension or tenderness with confusion (possible spontaneous bacterial peritonitis)?"
+            ],
+            "psychosocial": [
+                "Anxiety or depression limiting proper self-care or medical follow-up?"
+            ]
+        }
+    },
+    {
+        "symptom": "Severe Fatigue",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did fatigue begin and is it constant or episodic?",
+                "Is it exacerbated by physical activity or mental effort?",
+                "Any associated weight loss, fever, or night sweats?"
+            ],
+            "vital_signs": [
+                "Heart rate, blood pressure, oxygen saturation, and temperature?"
+            ],
+            "medical_history": [
+                "History of anemia, hypothyroidism, depression, or chronic infections?"
+            ],
+            "past_medical_history": [
+                "Prior episodes of unexplained fatigue or chronic disease diagnosis?"
+            ],
+            "lifestyle_risk_factors": [
+                "Poor sleep, excessive caffeine or alcohol intake?"
+            ],
+            "red_flags": [
+                "Sudden extreme fatigue with shortness of breath or syncope?"
+            ],
+            "psychosocial": [
+                "Stress, depression, or burnout?"
+            ]
+        }
+    },
+    {
+        "symptom": "Memory Loss or Confusion",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did you first notice memory issues?",
+                "Is it progressive or sudden?",
+                "Any problems with attention, language, or problem-solving?"
+            ],
+            "vital_signs": [
+                "Blood pressure, blood sugar, oxygen saturation?"
+            ],
+            "medical_history": [
+                "History of stroke, dementia, or neurological disease?"
+            ],
+            "past_medical_history": [
+                "Prior head injuries or transient ischemic attacks?"
+            ],
+            "lifestyle_risk_factors": [
+                "Substance use, poor sleep, poor diet?"
+            ],
+            "red_flags": [
+                "Sudden confusion, disorientation, or personality changes?"
+            ],
+            "psychosocial": [
+                "Depression, anxiety, or isolation?"
+            ]
+        }
+    },
+    {
+        "symptom": "Difficulty Concentrating",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did you start having concentration problems?",
+                "Is it constant or related to specific situations?",
+                "Any associated fatigue, anxiety, or memory loss?"
+            ],
+            "vital_signs": [
+                "Blood pressure, heart rate, and oxygen saturation?"
+            ],
+            "medical_history": [
+                "History of depression, ADHD, hypothyroidism, or anemia?"
+            ],
+            "past_medical_history": [
+                "Previous psychological or medical evaluations?"
+            ],
+            "lifestyle_risk_factors": [
+                "Poor sleep, high caffeine intake, substance use?"
+            ],
+            "red_flags": [
+                "Sudden concentration loss with confusion or memory gaps?"
+            ],
+            "psychosocial": [
+                "Stress, depression, or anxiety?"
+            ]
+        }
+    },
+    {
+        "symptom": "Mood Changes",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did the mood changes start?",
+                "Is it depression, irritability, anxiety, or mood swings?",
+                "Any associated changes in sleep, appetite, or energy?"
+            ],
+            "vital_signs": [
+                "Blood pressure, heart rate?"
+            ],
+            "medical_history": [
+                "History of depression, bipolar disorder, or psychiatric conditions?"
+            ],
+            "past_medical_history": [
+                "Previous mood disorder treatments or hospitalizations?"
+            ],
+            "lifestyle_risk_factors": [
+                "Substance use, poor sleep hygiene, social isolation?"
+            ],
+            "red_flags": [
+                "Suicidal ideation or aggressive behavior?"
+            ],
+            "psychosocial": [
+                "Recent stressors, bereavement, financial troubles?"
+            ]
+        }
+    },
+    {
+        "symptom": "Swollen Glands (Lymphadenopathy)",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did you first notice the swelling?",
+                "Is it painful or painless?",
+                "Are the glands tender or fixed?"
+            ],
+            "vital_signs": [
+                "Temperature, heart rate?"
+            ],
+            "medical_history": [
+                "History of infections (TB, HIV), cancer, or autoimmune diseases?"
+            ],
+            "past_medical_history": [
+                "Prior episodes of swollen glands or malignancies?"
+            ],
+            "lifestyle_risk_factors": [
+                "Recent infections, tattoos, high-risk exposures?"
+            ],
+            "red_flags": [
+                "Rapidly enlarging or hard lymph nodes without pain?"
+            ],
+            "psychosocial": [
+                "Stress, anxiety, or fear of serious disease?"
+            ]
+        }
+    },
+    {
+        "symptom": "Persistent Cough",
+        "follow_up_questions": {
+            "symptom_details": [
+                "Duration of cough?",
+                "Dry or productive?",
+                "Any blood in sputum?"
+            ],
+            "vital_signs": [
+                "Temperature, heart rate, oxygen saturation?"
+            ],
+            "medical_history": [
+                "History of asthma, COPD, GERD, or lung cancer?"
+            ],
+            "past_medical_history": [
+                "Previous episodes of chronic cough or TB?"
+            ],
+            "lifestyle_risk_factors": [
+                "Smoking, occupational exposure?"
+            ],
+            "red_flags": [
+                "Unexplained weight loss, hemoptysis, or fever?"
+            ],
+            "psychosocial": [
+                "Stress-related cough (habit cough)?"
+            ]
+        }
+    },
+    {
+        "symptom": "Visual Disturbances",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did the visual disturbances start?",
+                "Is it blurred vision, double vision, or sudden vision loss?",
+                "Any association with headache, dizziness, or neurological symptoms?"
+            ],
+            "vital_signs": [
+                "Blood pressure, heart rate?"
+            ],
+            "medical_history": [
+                "History of glaucoma, stroke, diabetes, or migraine?"
+            ],
+            "past_medical_history": [
+                "Previous ophthalmological evaluations?"
+            ],
+            "lifestyle_risk_factors": [
+                "High screen time, poor lighting, or poor eye care habits?"
+            ],
+            "red_flags": [
+                "Sudden vision loss or visual field defects?"
+            ],
+            "psychosocial": [
+                "Stress contributing to transient visual changes?"
+            ]
+        }
+    },
+    {
+        "symptom": "Difficulty Speaking (Dysarthria or Aphasia)",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did the difficulty start?",
+                "Is the speech slurred, slow, or completely lost?",
+                "Any associated weakness, facial droop, or comprehension problems?"
+            ],
+            "vital_signs": [
+                "Blood pressure, heart rate, oxygen saturation?"
+            ],
+            "medical_history": [
+                "History of stroke, neurodegenerative disorders, or head injury?"
+            ],
+            "past_medical_history": [
+                "Previous episodes of speech difficulty or neurological disease?"
+            ],
+            "lifestyle_risk_factors": [
+                "Smoking, alcohol, drug use?"
+            ],
+            "red_flags": [
+                "Sudden onset of speech difficulty with weakness or altered consciousness?"
+            ],
+            "psychosocial": [
+                "Anxiety contributing to transient speech problems?"
+            ]
+        }
+    },
+    {
+        "symptom": "Excessive Sweating at Night (Night Sweats)",
+        "follow_up_questions": {
+            "symptom_details": [
+                "How frequent are the night sweats?",
+                "Is it drenching or mild?",
+                "Any associated fever, weight loss, or cough?"
+            ],
+            "vital_signs": [
+                "Body temperature, heart rate?"
+            ],
+            "medical_history": [
+                "History of infections (TB, HIV), malignancies, or endocrine disorders?"
+            ],
+            "past_medical_history": [
+                "Previous episodes of night sweats or unexplained fever?"
+            ],
+            "lifestyle_risk_factors": [
+                "Alcohol use, medications causing diaphoresis?"
+            ],
+            "red_flags": [
+                "Night sweats with weight loss, lymphadenopathy, or persistent cough?"
+            ],
+            "psychosocial": [
+                "Stress or anxiety contributing to sweating?"
+            ]
+        }
+    },
+    {
+        "symptom": "Syncope (Fainting / Loss of Consciousness)",
+        "follow_up_questions": {
+            "symptom_details": [
+                "When did the fainting episode occur?",
+                "Was it sudden or preceded by warning signs (dizziness, palpitations, nausea)?",
+                "How long did you lose consciousness?",
+                "Was there any seizure-like activity or confusion after the episode?"
+            ],
+            "vital_signs": [
+                "Blood pressure (lying, sitting, standing), heart rate, oxygen saturation during and after episode?"
+            ],
+            "medical_history": [
+                "History of heart disease, arrhythmias, neurological disorders, or prior syncope?"
+            ],
+            "past_medical_history": [
+                "Previous fainting episodes or head injuries?"
+            ],
+            "lifestyle_risk_factors": [
+                "Dehydration, prolonged standing, medications (antihypertensives, diuretics), alcohol or drug use?"
+            ],
+            "red_flags": [
+                "Syncope with chest pain, palpitations, shortness of breath, or neurological deficits (possible cardiac or cerebrovascular emergency)?"
+            ],
+            "psychosocial": [
+                "Stress, anxiety, or panic attack contributing to fainting?"
+            ]
+        }
+    }
+]
